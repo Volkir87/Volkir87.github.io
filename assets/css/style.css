@@ -1,0 +1,265 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* New element, class and id style definitions start here */
+
+
+#name {
+    font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-size: 91px;
+    font-weight: 1000;
+    /* border-top: 4px solid white; */
+    color: #00374f;
+    display: inline-block;
+    min-height: 70px;
+    margin: 55px auto 0;
+    padding: 0 10px;
+    z-index: 2;
+    background-color: #edf6ff;
+}
+
+#name:after {
+    background-color: #dd3b2a;
+    content: '';
+    height: 2px;
+    left: 0;
+    margin-top: 45px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#title {
+    margin: 0 auto;
+    max-width: 1040px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#subtitle {
+    color: #dd3b2a;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: right;
+    max-width: 695px;
+    margin: -10px auto 0;
+    width: 100%;
+    padding-top: 1rem;
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#portfolio_image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-color: #dd3b2a;
+    border-style: double;
+    border-width: 6px;
+}
+
+#image_container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.links {
+    font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #dd3b2a;
+}
+
+.link {
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-variant-caps: all-petite-caps
+}
+
+.general {
+    background-color: #edf6ff;
+}
+
+#first_page {
+    height: 100vh;
+}
+
+.info {
+    background-color: white;
+    border-top: 5px solid #dd3b2a;
+    /* border-bottom: 5px solid #2babe1; */
+    /* float: left; */
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    margin-top: auto;
+}
+
+.info_header {
+    color: #dd3b2a;
+    font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 1.25em;
+    margin: 0.5em 0;
+}
+
+#description {
+    color: #0f2a36;
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* Project related styling */
+
+.portfolio {
+    background: #edf6ff;
+    border-top: 5px solid #cce4fb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 1rem;
+    width: 100%;
+    /* height: 100vh; */
+    border-bottom: 5px solid #cce4fb;
+}
+
+#all_projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project_box {
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+.project_image {
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #cce4fb;
+    height: 175px;
+    width: 175px;
+}
+
+.project_name {
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+
+.project_description {
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.button_group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.link_ext, #contact_submit {
+    background-color: #dd3b2a;
+    color: white;
+    border: #dd3b2a solid;
+    border-radius: 10%;
+    width: 60px;
+    height: 30px;
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Styles for the contact section */
+
+.contact {
+    background: white;
+    /* border-top: 5px solid #cce4fb; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 1rem;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.contact_box {
+    justify-content: center;
+}
+
+.contact_label {
+    font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.contact_input {
+
+}
+
+#contact_submit {
+    width: 80px;
+}

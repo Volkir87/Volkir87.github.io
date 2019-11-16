@@ -1,6 +1,95 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans&display=swap" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <title>Kirill Volodkin Portfolio Page</title>
+    </head>
+
     <body>
-        <h1>HELLO WORLD!</h1>
+        <div class="general">
+            <div id="first_page">
+                <div class="top">
+                    <nav class="links">
+                        <a class="link" href="index.html">About</a>
+                        <a class="link" href="portfolio.html">Portfolio</a>
+                        <a class="link" href="contact.html">Contact</a>
+                    </nav>
+                </div>
+                <div id="image_container">
+                    <img id="portfolio_image" src="assets/images/GIR_-_Dog_Suit_Art.png"/>
+                </div>
+                <div id="title">
+                    <h1 id="name">Kirill Volodkin</h1>
+                    <h2 id="subtitle">Application Developer</h2>
+                </div>
+                <!-- <div class="divider"></div> -->
+ 
+            </div>
+            <div class="info">
+                <h2 class="info_header">About Me</h2>
+                <div class="info_data">
+                    <div id="description">
+                        <p>Hi, I am Kirill.</p>
+                        <p>I am currently a student in U of T School of Continuing Studies. Hopefully I will soon become a full-stack developer.</p>
+                        <p>Fun fact: from ancient Greek, "Kirilos" means "Lordly, Masterful". Also, I am a modest person.</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="portfolio">
+                <h2 class="info_header">Portfolio</h2>
+                <div id="all_projects">
+                    <div class="project_box" id="weather_dash">
+                        <img src="./assets/images/RPG.jpg" class="project_image">
+                        <h3 class="project_name">Weather Dashboard</h3>
+                        <p class="project_description">Some description for testing</p>
+                        <div class="button_group">
+                            <a class="link_ext" href="#">SITE</a>
+                            <a class="link_ext" href="#">CODE</a>
+                        </div>
+                    </div>
+                    <div class="project_box" id="nounify">
+                        <img src="./assets/images/Puzzle.jpg" class="project_image">
+                        <h3 class="project_name">Day Planner</h3>
+                        <p class="project_description">Some description for testing</p>
+                        <div class="button_group">
+                            <a class="link_ext" href="#">SITE</a>
+                            <a class="link_ext" href="#">CODE</a>
+                        </div>
+                    </div>
+                    <div class="project_box" id="nounify">
+                        <img src="./assets/images/Puzzle.jpg" class="project_image">
+                        <h3 class="project_name">Nounify</h3>
+                        <p class="project_description">Some description for testing</p>
+                        <div class="button_group">
+                            <a class="link_ext" href="#">SITE</a>
+                            <a class="link_ext" href="#">CODE</a>
+                        </div>
+                    </div>  
+                </div>
+                    <!-- <a class="portfolio_box" id="rock" href="#"><p class="portfolio_item_name">Rock Paper Scissors</p></a> -->
+            </div>
+            <div class="contact">
+                <h2 class="info_header">Contact</h2>
+                <div class="contact_box">
+                    <label class="contact_label">Name</label>
+                    <input class="contact_input" type="text"><br>
+                    <label class="contact_label">Email</label>
+                    <input class="contact_input" type="text"><br>
+                    <label class="contact_label">Message</label>
+                    <textarea id="message_box" type="text"></textarea><br>
+                    <button id="contact_submit">
+                        SUBMIT
+                    </button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            (c) Copyright
+        </footer>
+        
+
     </body>
 </html>
