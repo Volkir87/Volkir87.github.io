@@ -45,6 +45,7 @@ table {
 
 /* New element, class and id style definitions start here */
 
+html { scroll-behavior: smooth; }
 
 #name {
     font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
@@ -191,6 +192,7 @@ table {
 .project_box {
     margin: 1rem 2rem 1rem 2rem;
     text-align: center;
+    width: 15rem;
 }
 
 .project_image {
@@ -212,6 +214,7 @@ table {
     font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     margin-top: 10px;
+    height: 3rem;
 }
 
 .button_group {
@@ -298,4 +301,24 @@ footer {
     font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 2%;
     box-sizing: border-box;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+    #name {
+        font-size: 50px;
+    }
+    #name:after {
+        width: 0%;
+    }
+    #subtitle {
+        text-align: center;
+    }
+    .links {
+        justify-content: space-around;
+    }
+    .contact_box {
+        max-width: 90%;
+    }
 }

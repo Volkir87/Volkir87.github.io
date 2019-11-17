@@ -1,6 +1,8 @@
-# Responsive-Portfolio
+# My Portfolio Website
 
-This is an example of a responsive portfolio website, built using html and css. 
+Hi! 
+This is my portfolio website. It contains basic information about myself and links to my favourite projects.
+ 
 
 Link to the website:
-https://volkir87.github.io/Responsive-Portfolio/
+https://volkir87.github.io/
