@@ -227,7 +227,7 @@ html { scroll-behavior: smooth; }
     background-color: #dd3b2a;
     color: white;
     border: #dd3b2a solid;
-    border-radius: 10%;
+    border-radius: 5px;
     width: 80px;
     height: 30px;
     font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -261,6 +261,20 @@ html { scroll-behavior: smooth; }
     margin: auto;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.contact_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont_but {
+    width: 120px;
+    height: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    margin: 0.1rem;
 }
 
 .contact_label {
